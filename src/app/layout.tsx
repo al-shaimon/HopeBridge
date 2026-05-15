@@ -8,8 +8,63 @@ import { Footer } from "@/components/footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "HopeBridge | Modern Donation Platform",
-  description: "Small Donations. Massive Impact. Join us in making the world a better place.",
+  title: {
+    default: "HopeBridge | Small Donations. Massive Impact.",
+    template: "%s | HopeBridge"
+  },
+  description: "HopeBridge is a modern donation platform connecting donors with impactful campaigns globally. Join us in making a difference through transparent and secure giving.",
+  keywords: ["donation", "charity", "nonprofit", "philanthropy", "social impact", "HopeBridge", "clean water", "education", "healthcare"],
+  authors: [{ name: "HopeBridge Team" }],
+  creator: "HopeBridge Foundation",
+  publisher: "HopeBridge Foundation",
+  formatDetection: {
+    email: false,
+    address: false,
+    telephone: false,
+  },
+  metadataBase: new URL("https://hopebridge-platform.vercel.app"),
+  alternates: {
+    canonical: "/",
+  },
+  openGraph: {
+    title: "HopeBridge | Small Donations. Massive Impact.",
+    description: "Empowering communities and changing lives through transparent, direct, and impactful donations.",
+    url: "https://hopebridge-platform.vercel.app",
+    siteName: "HopeBridge",
+    images: [
+      {
+        url: "/og-image.jpg", // User would need to provide this
+        width: 1200,
+        height: 630,
+        alt: "HopeBridge Donation Platform",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "HopeBridge | Small Donations. Massive Impact.",
+    description: "Empowering communities and changing lives through transparent, direct, and impactful donations.",
+    creator: "@hopebridge",
+    images: ["/og-image.jpg"],
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
+  icons: {
+    icon: "/favicon.ico",
+    shortcut: "/favicon-16x16.png",
+    apple: "/apple-touch-icon.png",
+  },
 };
 
 export default function RootLayout({

@@ -24,7 +24,7 @@ export function CampaignCard({ campaign }: CampaignCardProps) {
       transition={{ duration: 0.2 }}
       className="h-full"
     >
-      <Card className="h-full overflow-hidden flex flex-col bg-card/50 glass border-border/50 group">
+      <Card className="h-full pt-0 overflow-hidden flex flex-col bg-card/50 glass border-border/50 group">
         <div className="relative h-48 overflow-hidden">
           {/* We use standard img to avoid next/image host config issues in templates, 
               but typically we'd configure next/image in next.config.ts */}

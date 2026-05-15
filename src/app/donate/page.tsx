@@ -4,8 +4,9 @@ import { DonationForm } from "@/components/donation-form";
 import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: "Donate | HopeBridge",
-  description: "Make a donation to support our campaigns and change lives.",
+  title: "Secure Donation | Help Us Change Lives",
+  description: "Securely donate to HopeBridge. Choose from various impactful campaigns like Clean Water and Education to make a real difference today.",
+  keywords: ["secure donation", "charity checkout", "donate now", "HopeBridge donation"],
 };
 
 export default function DonatePage() {
