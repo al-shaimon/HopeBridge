@@ -22,14 +22,14 @@ export const metadata: Metadata = {
     address: false,
     telephone: false,
   },
-  metadataBase: new URL("https://hopebridge-platform.vercel.app"),
+  metadataBase: new URL("https://hope-bridge.alshaimon.com"),
   alternates: {
     canonical: "/",
   },
   openGraph: {
     title: "HopeBridge | Small Donations. Massive Impact.",
     description: "Empowering communities and changing lives through transparent, direct, and impactful donations.",
-    url: "https://hopebridge-platform.vercel.app",
+    url: "https://hope-bridge.alshaimon.com",
     siteName: "HopeBridge",
     images: [
       {

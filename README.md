@@ -42,14 +42,14 @@ Create a `.env.local` file in the root directory and add your Stripe keys:
 ```env
 NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY=pk_test_...
 STRIPE_SECRET_KEY=sk_test_...
-NEXT_PUBLIC_SITE_URL=http://localhost:3000
+NEXT_PUBLIC_SITE_URL=https://hope-bridge.alshaimon.com
 ```
 
 ### 4. Run the development server
 ```bash
 npm run dev
 ```
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [https://hope-bridge.alshaimon.com](https://hope-bridge.alshaimon.com) to see the live project.
 
 ## 📁 Project Structure
 

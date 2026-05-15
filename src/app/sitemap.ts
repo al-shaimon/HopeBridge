@@ -1,5 +1,5 @@
 export default function sitemap() {
-  const baseUrl = "https://hopebridge-platform.vercel.app";
+  const baseUrl = "https://hope-bridge.alshaimon.com";
 
   return [
     {
