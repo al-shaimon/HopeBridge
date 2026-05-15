@@ -59,6 +59,7 @@
   --input: oklch(0.9 0.01 250);
   --ring: oklch(0.45 0.15 250);
   --radius: 0.75rem;
+  --primary-rgb: 37, 99, 235;
 }
 
 .dark {
@@ -81,6 +82,7 @@
   --border: oklch(0.25 0.03 250);
   --input: oklch(0.25 0.03 250);
   --ring: oklch(0.6 0.18 250);
+  --primary-rgb: 96, 165, 250;
 }
 
 @layer base {
